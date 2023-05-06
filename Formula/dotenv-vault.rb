@@ -1,9 +1,9 @@
 class DotenvVault < Formula
   desc "Simplify Your Secrets"
   homepage "https://dotenv.org"
-  url "https://dotenv-vault-assets.dotenv.org/versions/1.20.0/7b354f9/dotenv-vault-v1.20.0-7b354f9-darwin-x64.tar.xz"
-  sha256 "cc70f1a66704936966b1c02bccadcc54e2d23a93103ea814a589a53d7566de27"
-  depends_on "dotenv-org/brew/dotenv-vault-node" => "14.19.0"
+  url "https://dotenv-vault-assets.dotenv.org/versions/1.21.0/c114529/dotenv-vault-v1.21.0-c114529-darwin-x64.tar.xz"
+  sha256 "4ed4813a2e6693453802e8055d49e12c36f4b1fa6be59d1221a2e43d64c844cd"
+  depends_on "dotenv-org/brew/dotenv-vault-node" => "15.14.0"
 
   def install
     inreplace "bin/dotenv-vault", /^CLIENT_HOME=/, "export DOTENV_VAULT_OCLIF_CLIENT_HOME=#{lib/"client"}\nCLIENT_HOME="
@@ -12,7 +12,7 @@ class DotenvVault < Formula
     bin.install_symlink libexec/"bin/dotenv-vault"
   end
 
-  test do
-    system bin/"dotenv-vault", "version"
+  def test
+    system bin/"dotenv-vault", "--version"
   end
 end

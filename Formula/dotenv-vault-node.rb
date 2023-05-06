@@ -1,10 +1,10 @@
 class DotenvVaultNode < Formula
   desc "node.js dependency for dotenv-vault"
   homepage "https://dotenv.org"
-  url "https://nodejs.org/download/release/v14.19.0/node-v14.19.0-darwin-x64.tar.xz"
-  version "14.19.0"
-  sha256 "fe344d2184303c6ca79ac4c9cb1391f15b9c00ad9c82366737f35037301e15f8"
-  keg_only "dotenv-vault-node is only used by dotenv-vault (dotenv-org/brew/dotenv-vault), which explicitly requires from Cellar"
+  url "https://nodejs.org/download/release/v15.14.0/node-v15.14.0-darwin-x64.tar.xz"
+  version "15.14.0"
+  sha256 "f355aeda5049fdbac4acca23a7bb6f66e145a179a52bd2489e3f76fbe0feb161"
+  keg_only "dotenv-vault-node is only used by dotenv-vault (dotenv-org/brew/dotenv-vault)"
 
   def install
     bin.install buildpath/"bin/node"
