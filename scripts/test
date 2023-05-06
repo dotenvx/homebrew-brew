@@ -4,5 +4,5 @@ set -ex
 
 brew update
 brew install Formula/dotenv.rb
-heroku version
-heroku help
+dotenv-vault version
+dotenv-vault help
