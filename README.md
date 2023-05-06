@@ -3,5 +3,5 @@
 Install dotenv-vault cli with
 
 ```bash
-$ brew tap dotenv-org/brew && brew install dotenv-vault
+$ brew install dotenv-org/brew/dotenv-vault
 ```
