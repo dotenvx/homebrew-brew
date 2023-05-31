@@ -1,8 +1,8 @@
 class DotenvVault < Formula
   desc "Simplify Your Secrets"
   homepage "https://dotenv.org"
-  url "https://dotenv-vault-assets.dotenv.org/versions/1.22.1/acdde2e/dotenv-vault-v1.22.1-acdde2e-darwin-arm64.tar.xz"
-  sha256 "caa4ea22594cc80ff9c86a02844b78d76e65dd25ce32d64077100470313389cd"
+  url "https://dotenv-vault-assets.dotenv.org/versions/1.23.1/7499787/dotenv-vault-v1.23.1-7499787-darwin-arm64.tar.xz"
+  sha256 "2d8ec78eb6016857fcbfa575bde9862da084b0b2849651e4f8043a909ef51757"
   depends_on "dotenv-org/brew/dotenv-vault-node" => "15.14.0"
 
   def install
