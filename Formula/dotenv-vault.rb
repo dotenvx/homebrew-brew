@@ -1,5 +1,5 @@
 class DotenvVault < Formula
-  desc "Simplify Your Secrets"
+  desc "Sync .env files"
   homepage "https://dotenv.org"
   url "https://dotenv-vault-assets.dotenv.org/versions/1.23.3/88646dc/dotenv-vault-v1.23.3-88646dc-darwin-arm64.tar.xz"
   sha256 "67a682027ee8f75002a4410abcbb9f34e4f62f6912d078574ce2af43545d2ff0"
