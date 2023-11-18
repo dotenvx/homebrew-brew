@@ -1,7 +1,11 @@
 # Dotenv Homebrew Tap
 
 <!-- project_table_start -->
-TABLE HERE
+| Project                                                | Description                                                                 | Install                          |
+| ------------------------------------------------------ | --------------------------------------------------------------------------- | -------------------------------- |
+| [dotenv-vault-node](https://dotenv.org)                | node.js dependency for dotenv-vault                                         | `brew install dotenv-vault-node` |
+| [dotenv-vault](https://dotenv.org)                     | Sync .env files                                                             | `brew install dotenv-vault`      |
+| [git-dotenv](https://github.com/dotenv-org/git-dotenv) | More secure, standalone, cross-platform dotenv - from the creator of dotenv | `brew install git-dotenv`        |
 <!-- project_table_end -->
 
 ## git-dotenv
