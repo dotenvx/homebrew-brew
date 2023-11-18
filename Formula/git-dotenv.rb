@@ -5,30 +5,30 @@
 class GitDotenv < Formula
   desc "More secure, standalone, cross-platform dotenv - from the creator of dotenv"
   homepage "https://github.com/dotenv-org/git-dotenv"
-  url "https://github.com/dotenv-org/git-dotenv/archive/refs/tags/v0.1.12.tar.gz"
-  sha256 "0df1124eaf016d86a2c681f9bd516e983acc660b44a435722320e76c17f01fcc"
+  url "https://github.com/dotenv-org/git-dotenv/archive/refs/tags/v0.1.13.tar.gz"
+  sha256 "e14b79bb0c181bb2da2bd7e4b91d19208d710aafbbac4a4bf1d17e23130e8a19"
 
   on_macos do
     on_intel do
-      url "https://github.com/dotenv-org/git-dotenv/releases/download/v0.1.12/git-dotenv-0.1.12-darwin-amd64.tar.gz"
-      sha256 "fd450c20bce04caa6e6398dc49b370fce88751e41adcfa8b0e12f44df8829098"
+      url "https://github.com/dotenv-org/git-dotenv/releases/download/v0.1.13/git-dotenv-0.1.13-darwin-amd64.tar.gz"
+      sha256 "88ef7fd8df2ce4cd04498b7f2ee3b04af821575c5bcf6e5f0e54d1736603d72b"
     end
 
     on_arm do
-      url "https://github.com/dotenv-org/git-dotenv/releases/download/v0.1.12/git-dotenv-0.1.12-darwin-arm64.tar.gz"
-      sha256 "377f31a3fc1dd2a440179285dbbb0fd91ab9c0cac5f9db1a6ee7da8d848269ab"
+      url "https://github.com/dotenv-org/git-dotenv/releases/download/v0.1.13/git-dotenv-0.1.13-darwin-arm64.tar.gz"
+      sha256 "b77312d76f0a08b993c4dbacf15a74d7721a1f971d48cd03f14b6c972f312c22"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/dotenv-org/git-dotenv/releases/download/v0.1.12/git-dotenv-0.1.12-linux-amd64.tar.gz"
-      sha256 "e920ef3bf765741413142b93e5f81a9a38d118fa2eee9281cb7c173b52177100"
+      url "https://github.com/dotenv-org/git-dotenv/releases/download/v0.1.13/git-dotenv-0.1.13-linux-amd64.tar.gz"
+      sha256 "a393db9368fde518a7d24a9ef1bc6bb603adbef59dde5355599dcbb19e99d19e"
     end
 
     on_arm do
-      url "https://github.com/dotenv-org/git-dotenv/releases/download/v0.1.12/git-dotenv-0.1.12-linux-arm64.tar.gz"
-      sha256 "d6d71f26d06751c448722d13f9903bf039cd8afad41a7baa094effc607e90c68"
+      url "https://github.com/dotenv-org/git-dotenv/releases/download/v0.1.13/git-dotenv-0.1.13-linux-arm64.tar.gz"
+      sha256 "2e8a422b8eb00a97858153ef8c930f56260bb63ad697690664b296f350923cbb"
     end
   end
 
