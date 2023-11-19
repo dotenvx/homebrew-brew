@@ -34,10 +34,11 @@ class Dotenv < Formula
 
   def install
     bin.install "dotenv"
-bin.install_symlink "dotenv" => "git-dotenv"
+    bin.install_symlink "dotenv" => "git-dotenv"
   end
 
   test do
     system bin/"dotenv", "--version"
+    system bin/"git-dotenv", "--version"
   end
 end
