@@ -5,20 +5,30 @@
 class Dotenv < Formula
   desc "Better dotenv–from the creator of `dotenv`"
   homepage "https://github.com/dotenv-org/dotenv"
-  url "https://github.com/dotenv-org/dotenv/archive/refs/tags/v0.2.8.tar.gz"
-  sha256 "259a7ad0571bb0a3d16a30d8f2f8d7febef33bafb4f40ecd1b5ddd2dd1cab3cd"
+  url "https://github.com/dotenv-org/dotenv/archive/refs/tags/v0.2.9.tar.gz"
+  sha256 "42e1f2ed3af6fb915be588aedb88ee34b7c8647af102375a2f6331ee4d7a3dfc"
 
   on_macos do
+    on_intel do
+      url "https://github.com/dotenv-org/dotenv/releases/download/v0.2.9/dotenv-0.2.9-darwin-amd64.tar.gz"
+      sha256 "6d445d870d1772c0151c3b203bfeab6ad707638109abb433e7005a6dd499077f"
+    end
+
     on_arm do
-      url "https://github.com/dotenv-org/dotenv/releases/download/v0.2.8/dotenv-0.2.8-darwin-arm64.tar.gz"
-      sha256 "31af9f9bc0a33319563cf51e5dd954173e9529bd6dba00e0997afd6c7b97686f"
+      url "https://github.com/dotenv-org/dotenv/releases/download/v0.2.9/dotenv-0.2.9-darwin-arm64.tar.gz"
+      sha256 "60b5c477e677a3cee6e8721299d52acd3ea58bb51c9702e34a79606c4f7360e5"
     end
   end
 
   on_linux do
+    on_intel do
+      url "https://github.com/dotenv-org/dotenv/releases/download/v0.2.9/dotenv-0.2.9-linux-amd64.tar.gz"
+      sha256 "40e9feba45c4e4e0e98aeba693e1803d8b937f44ad2fcd4834abb8017cd1ee7c"
+    end
+
     on_arm do
-      url "https://github.com/dotenv-org/dotenv/releases/download/v0.2.8/dotenv-0.2.8-linux-arm64.tar.gz"
-      sha256 "0ec1a5f344769e2632dc122ebbb4cbe02162002e1adb1950f65be00d10a6a9a1"
+      url "https://github.com/dotenv-org/dotenv/releases/download/v0.2.9/dotenv-0.2.9-linux-arm64.tar.gz"
+      sha256 "17f004e8b08e9c60c9806359f36478426cd533656ce62cd64a64dd18c2aa0d05"
     end
   end
 
