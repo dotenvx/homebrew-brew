@@ -23,11 +23,11 @@ That's it! You can now use [dotenv-vault](https://github.com/dotenv-org/dotenv-v
 ---
 
 <!-- project_table_start -->
-| Project                                        | Description                                  | Install                          |
-| ---------------------------------------------- | -------------------------------------------- | -------------------------------- |
-| [dotenv-vault-node](https://dotenv.org)        | node.js dependency for dotenv-vault          | `brew install dotenv-vault-node` |
-| [dotenv-vault](https://dotenv.org)             | Sync .env files                              | `brew install dotenv-vault`      |
-| [dotenv](https://github.com/dotenv-org/dotenv) | “better dotenv“ from the creator of `dotenv` | `brew install dotenv`            |
+| Project                                        | Description                                | Install                          |
+| ---------------------------------------------- | ------------------------------------------ | -------------------------------- |
+| [dotenv-vault-node](https://dotenv.org)        | node.js dependency for dotenv-vault        | `brew install dotenv-vault-node` |
+| [dotenv-vault](https://dotenv.org)             | Sync .env files                            | `brew install dotenv-vault`      |
+| [dotenv](https://github.com/dotenv-org/dotenv) | Better dotenv–from the creator of `dotenv` | `brew install dotenv`            |
 <!-- project_table_end -->
 
 
