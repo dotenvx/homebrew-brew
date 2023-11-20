@@ -5,30 +5,30 @@
 class Dotenv < Formula
   desc "Better dotenv–from the creator of `dotenv`"
   homepage "https://github.com/dotenv-org/dotenv"
-  url "https://github.com/dotenv-org/dotenv/archive/refs/tags/v0.2.11.tar.gz"
-  sha256 "800f572aa27a6b265be19151e70cd3058222f54b4db90a9749620e905950c6d2"
+  url "https://github.com/dotenv-org/dotenv/archive/refs/tags/v0.2.12.tar.gz"
+  sha256 "db5be4ce720645f483dae5a48ccf974a59b6081322ab0d4de8907de416840800"
 
   on_macos do
     on_intel do
-      url "https://github.com/dotenv-org/dotenv/releases/download/v0.2.11/dotenv-0.2.11-darwin-amd64.tar.gz"
-      sha256 "1b74936408126979c9fa1e7a74464ecefaeb3004bb19f50dff427c6512390637"
+      url "https://github.com/dotenv-org/dotenv/releases/download/v0.2.12/dotenv-0.2.12-darwin-amd64.tar.gz"
+      sha256 "1d5b84a2f134dfa9775a10d41cce5aa77cee01f782c66236b4df28b27bbd5eff"
     end
 
     on_arm do
-      url "https://github.com/dotenv-org/dotenv/releases/download/v0.2.11/dotenv-0.2.11-darwin-arm64.tar.gz"
-      sha256 "20b4fcafe2a27fdbc8819e82316e1f3b2ae50409b438e38fde4e6db9a238ec94"
+      url "https://github.com/dotenv-org/dotenv/releases/download/v0.2.12/dotenv-0.2.12-darwin-arm64.tar.gz"
+      sha256 "3547df9957472c0fcc9236d4507890ae2c2f03c0ea98012ed69f79e87b672c43"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/dotenv-org/dotenv/releases/download/v0.2.11/dotenv-0.2.11-linux-amd64.tar.gz"
-      sha256 "556a765261c890b87877657dfc60f119afb29b3e6f46ec65088ab4c6fadae2c8"
+      url "https://github.com/dotenv-org/dotenv/releases/download/v0.2.12/dotenv-0.2.12-linux-amd64.tar.gz"
+      sha256 "aba7555f5ef7824e51db3365b6a0c015ac194266ccf4a34d3dca21e1231fa22d"
     end
 
     on_arm do
-      url "https://github.com/dotenv-org/dotenv/releases/download/v0.2.11/dotenv-0.2.11-linux-arm64.tar.gz"
-      sha256 "898d116f8b11e1b766fbd6641c89182620142b6c6899b245fcf5eb2dfce84b4e"
+      url "https://github.com/dotenv-org/dotenv/releases/download/v0.2.12/dotenv-0.2.12-linux-arm64.tar.gz"
+      sha256 "d286f69571d69c1d5a5b0f04a7957e98e4fd8437f16a82ad122ba95df09615c1"
     end
   end
 
