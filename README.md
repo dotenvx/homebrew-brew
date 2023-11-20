@@ -1,14 +1,14 @@
 # Dotenv Homebrew Tap
 
-## git-dotenv
+## dotenv
 
-Install git-dotenv cli with:
+Install `dotenv` cli with:
 
 ```bash
-$ brew install dotenv-org/brew/git-dotenv
+$ brew install dotenv-org/brew/dotenv
 ```
 
-That's it! You can now use [git-dotenv](https://github.com/dotenv-org/git-dotenv) on your machine.
+That's it! You can now use [dotenv](https://github.com/dotenv-org/dotenv) on your machine.
 
 ## dotenv-vault
 
