@@ -5,30 +5,30 @@
 class Dotenv < Formula
   desc "Better dotenv–from the creator of `dotenv`"
   homepage "https://github.com/dotenv-org/dotenv"
-  url "https://github.com/dotenv-org/dotenv/archive/refs/tags/v0.2.12.tar.gz"
-  sha256 "db5be4ce720645f483dae5a48ccf974a59b6081322ab0d4de8907de416840800"
+  url "https://github.com/dotenv-org/dotenv/archive/refs/tags/v0.2.13.tar.gz"
+  sha256 "370c25b891c73c66e8c76fc7f61f18e3f1fc3dbf8d34efc8e2e1226c7a4c106a"
 
   on_macos do
     on_intel do
-      url "https://github.com/dotenv-org/dotenv/releases/download/v0.2.12/dotenv-0.2.12-darwin-amd64.tar.gz"
-      sha256 "1d5b84a2f134dfa9775a10d41cce5aa77cee01f782c66236b4df28b27bbd5eff"
+      url "https://github.com/dotenv-org/dotenv/releases/download/v0.2.13/dotenv-0.2.13-darwin-amd64.tar.gz"
+      sha256 "623cfce0d9ce5fa3c8804f48728f6a11a98494ff13cbc37ef5591bea554a6b0f"
     end
 
     on_arm do
-      url "https://github.com/dotenv-org/dotenv/releases/download/v0.2.12/dotenv-0.2.12-darwin-arm64.tar.gz"
-      sha256 "3547df9957472c0fcc9236d4507890ae2c2f03c0ea98012ed69f79e87b672c43"
+      url "https://github.com/dotenv-org/dotenv/releases/download/v0.2.13/dotenv-0.2.13-darwin-arm64.tar.gz"
+      sha256 "de73a5a768b3fe0bd507ee9b765828bf99797a2910bce7e5c5ab993e20ff08df"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/dotenv-org/dotenv/releases/download/v0.2.12/dotenv-0.2.12-linux-amd64.tar.gz"
-      sha256 "aba7555f5ef7824e51db3365b6a0c015ac194266ccf4a34d3dca21e1231fa22d"
+      url "https://github.com/dotenv-org/dotenv/releases/download/v0.2.13/dotenv-0.2.13-linux-amd64.tar.gz"
+      sha256 "9e7e7a79e3e4e898ddb7d41764caa017d27a277d773e6988f624af6cc699aea3"
     end
 
     on_arm do
-      url "https://github.com/dotenv-org/dotenv/releases/download/v0.2.12/dotenv-0.2.12-linux-arm64.tar.gz"
-      sha256 "d286f69571d69c1d5a5b0f04a7957e98e4fd8437f16a82ad122ba95df09615c1"
+      url "https://github.com/dotenv-org/dotenv/releases/download/v0.2.13/dotenv-0.2.13-linux-arm64.tar.gz"
+      sha256 "385a03e46f2b885e2099aad32df420e695220b539f89902526f9f53eed1640da"
     end
   end
 
