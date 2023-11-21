@@ -1,4 +1,4 @@
-> install dotenvx with homebrew
+> install dotenvx via homebrew
 >
 > `brew install dotenvx/brew/dotenvx`
 >
