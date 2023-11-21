@@ -3,6 +3,6 @@
 set -ex
 
 brew update
-brew install Formula/dotenv-vault.rb
-dotenv-vault --version
-dotenv-vault help
+brew install Formula/dotenvx.rb
+dotenvx --version
+dotenvx help
