@@ -1,5 +1,3 @@
-![dotenvx](https://dotenv.org/better-banner.png)
-
 > install `dotenvx` via homebrew
 > ```
 > brew install dotenvx/brew/dotenvx
