@@ -1,6 +1,14 @@
-```bash
-brew install dotenvx/brew/dotenvx
+> install dotenvx with homebrew
+>
+> `brew install dotenvx/brew/dotenvx`
+>
+>
+> ```
+> brew install dotenvx/brew/dotenvx
+> ---
+
 ```
+brew install dotenvx/brew/dotenvx
 ---
 
 <!-- project_table_start -->
