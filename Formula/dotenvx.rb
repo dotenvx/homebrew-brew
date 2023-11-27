@@ -5,30 +5,30 @@
 class Dotenvx < Formula
   desc "Better dotenv–from the creator of `dotenv`"
   homepage "https://github.com/dotenvx/dotenvx"
-  url "https://github.com/dotenvx/dotenvx/archive/refs/tags/v0.3.8.tar.gz"
-  sha256 "38097013101b0efdcca5180469ee74882ff452014e2011306d1ae63b3f2d1dae"
+  url "https://github.com/dotenvx/dotenvx/archive/refs/tags/v0.3.9.tar.gz"
+  sha256 "f4e80f0ee67ecd118c781de617a6f4e1a99df66342418dc2c65e153b732429c4"
 
   on_macos do
     on_intel do
-      url "https://github.com/dotenvx/dotenvx/releases/download/v0.3.8/dotenvx-0.3.8-darwin-amd64.tar.gz"
-      sha256 "b6cff1490b251609b01d33b0b96008ae6ba4df7d948242764f59892ca37339e3"
+      url "https://github.com/dotenvx/dotenvx/releases/download/v0.3.9/dotenvx-0.3.9-darwin-amd64.tar.gz"
+      sha256 "84f5341c05249c09dfa6ec9bec60156f0956631ed08d45182143ebb3357b9659"
     end
 
     on_arm do
-      url "https://github.com/dotenvx/dotenvx/releases/download/v0.3.8/dotenvx-0.3.8-darwin-arm64.tar.gz"
-      sha256 "915606ede5d6b84f7240caaa602bf940609eafe0ca48ef8bcd1db6e6ffcc5056"
+      url "https://github.com/dotenvx/dotenvx/releases/download/v0.3.9/dotenvx-0.3.9-darwin-arm64.tar.gz"
+      sha256 "72abd0762568ea8fe23f2c891e15e72f917048fb6a65b7745f8c893fb9fdd941"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/dotenvx/dotenvx/releases/download/v0.3.8/dotenvx-0.3.8-linux-amd64.tar.gz"
-      sha256 "de8aa35f447dd78cf5a5263fd8238c05fc30c5f05d0e2ef7a0d921a124b265f4"
+      url "https://github.com/dotenvx/dotenvx/releases/download/v0.3.9/dotenvx-0.3.9-linux-amd64.tar.gz"
+      sha256 "1a917fc6e870397ea3dab3622b7ab5129b65ad32e7cc56ca72b4a51d17ff3ee0"
     end
 
     on_arm do
-      url "https://github.com/dotenvx/dotenvx/releases/download/v0.3.8/dotenvx-0.3.8-linux-arm64.tar.gz"
-      sha256 "92c6d621e15d2c0bbc30094e7d78ac60309c478b398926a8bda2685bf239e1e7"
+      url "https://github.com/dotenvx/dotenvx/releases/download/v0.3.9/dotenvx-0.3.9-linux-arm64.tar.gz"
+      sha256 "f895b6f89104463654e10c54d669add730d12da925cf68192363cc0993790409"
     end
   end
 
