@@ -5,30 +5,30 @@
 class Dotenvx < Formula
   desc "Better dotenv–from the creator of `dotenv`"
   homepage "https://github.com/dotenvx/dotenvx"
-  url "https://github.com/dotenvx/dotenvx/archive/refs/tags/v0.5.0.tar.gz"
-  sha256 "9f055b6d63cb1aadb7c32fbd66e8b43658469065ce2239f37d7cbd903fcd50b3"
+  url "https://github.com/dotenvx/dotenvx/archive/refs/tags/v0.6.0.tar.gz"
+  sha256 "fdb73dfb215ddf3d6dbde50e73b18c79c4c93e555fdbd3ec017d6c6bbbd3ed8a"
 
   on_macos do
     on_intel do
-      url "https://github.com/dotenvx/dotenvx/releases/download/v0.5.0/dotenvx-0.5.0-darwin-amd64.tar.gz"
-      sha256 "530b57400e3ca05abee776486357cbb44c891830fa7e5b31cc0f9ce470a7f49c"
+      url "https://github.com/dotenvx/dotenvx/releases/download/v0.6.0/dotenvx-0.6.0-darwin-amd64.tar.gz"
+      sha256 "bfefcc4ad52eeb5233d1befe6e11891c4712bb0ffb50a402201a601103b0ab9f"
     end
 
     on_arm do
-      url "https://github.com/dotenvx/dotenvx/releases/download/v0.5.0/dotenvx-0.5.0-darwin-arm64.tar.gz"
-      sha256 "e4cbe9686dc0d148e4e2b9b596959b93223dc790891096daaadfb69df2b2f51a"
+      url "https://github.com/dotenvx/dotenvx/releases/download/v0.6.0/dotenvx-0.6.0-darwin-arm64.tar.gz"
+      sha256 "d22a9785154d4176f6c9f74ea087f2458dfcd77ae905ade20a9050d0e14ccba5"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/dotenvx/dotenvx/releases/download/v0.5.0/dotenvx-0.5.0-linux-amd64.tar.gz"
-      sha256 "22ebd6853849a3d1ed37282ec3e222edf95267c01239ba8e3e68677e079ac07a"
+      url "https://github.com/dotenvx/dotenvx/releases/download/v0.6.0/dotenvx-0.6.0-linux-amd64.tar.gz"
+      sha256 "6151aa109edc2c80b8f9a5c683c3d7b2cabee5f09e4b7fb03883b5604bc44013"
     end
 
     on_arm do
-      url "https://github.com/dotenvx/dotenvx/releases/download/v0.5.0/dotenvx-0.5.0-linux-arm64.tar.gz"
-      sha256 "e2f02f04df668ff3b441339de15b1d44a216e30566e4536f350c7f8292e9bac5"
+      url "https://github.com/dotenvx/dotenvx/releases/download/v0.6.0/dotenvx-0.6.0-linux-arm64.tar.gz"
+      sha256 "d9fdaf26b936c028bed02dae670a627001f14d1221e9c6c516bdaac926631659"
     end
   end
 
@@ -38,17 +38,5 @@ class Dotenvx < Formula
 
   test do
     system bin/"dotenvx", "--version";
-  end
-
-  def caveats
-    <<~EOS
-      try it out:
-
-          dotenvx help
-
-      docs:
-
-          https://github.com/dotenvx/dotenvx
-    EOS
   end
 end
