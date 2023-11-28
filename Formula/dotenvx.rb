@@ -39,4 +39,10 @@ class Dotenvx < Formula
   test do
     system bin/"dotenvx", "--version";
   end
+
+  def caveats
+    <<~EOS
+      now type: dotenvx --help
+    EOS
+  end
 end
