@@ -42,7 +42,13 @@ class Dotenvx < Formula
 
   def caveats
     <<~EOS
-      now type: dotenvx --help
+      try it out:
+
+          dotenvx help
+
+      docs:
+
+          https://github.com/dotenvx/dotenvx
     EOS
   end
 end
