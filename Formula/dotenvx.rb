@@ -5,30 +5,30 @@
 class Dotenvx < Formula
   desc "Better dotenv–from the creator of `dotenv`"
   homepage "https://github.com/dotenvx/dotenvx"
-  url "https://github.com/dotenvx/dotenvx/archive/refs/tags/v0.6.13.tar.gz"
-  sha256 "6d28b35b8786b232110fdac401b1d04d96a4de692be6ed32370730198dc5efdb"
+  url "https://github.com/dotenvx/dotenvx/archive/refs/tags/v0.7.0.tar.gz"
+  sha256 "018c03409fc1008f909b4e823b1ffc983395b0e14e4c66c82a4a7bf7363f13c1"
 
   on_macos do
     on_intel do
-      url "https://github.com/dotenvx/dotenvx/releases/download/v0.6.13/dotenvx-0.6.13-darwin-amd64.tar.gz"
-      sha256 "cd01873f1e9249557ec847e5ac22f3f4272c63798beac1062160b144867698a9"
+      url "https://github.com/dotenvx/dotenvx/releases/download/v0.7.0/dotenvx-0.7.0-darwin-amd64.tar.gz"
+      sha256 "f8e61b49d0839022af829ed4fc1d329a387c79b708bdd0e60d6bab7b965f2922"
     end
 
     on_arm do
-      url "https://github.com/dotenvx/dotenvx/releases/download/v0.6.13/dotenvx-0.6.13-darwin-arm64.tar.gz"
-      sha256 "2ea076007bc6ba7c01c6f9b053c9b48a5696bb1295fa8f19771fa473b0f85eaa"
+      url "https://github.com/dotenvx/dotenvx/releases/download/v0.7.0/dotenvx-0.7.0-darwin-arm64.tar.gz"
+      sha256 "007afe6c325c8ee8b102dcf26b248413fbaf98030bb5ac47c4f789711ff1d6fc"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/dotenvx/dotenvx/releases/download/v0.6.13/dotenvx-0.6.13-linux-amd64.tar.gz"
-      sha256 "e79b6a5e9ee328cf28444e2b2a5f05e94f2ae548b84470103b40282775e2b949"
+      url "https://github.com/dotenvx/dotenvx/releases/download/v0.7.0/dotenvx-0.7.0-linux-amd64.tar.gz"
+      sha256 "eab72dd9296bcc8eafcf3b39847b87b1169f234c602504406d12ae68019ad590"
     end
 
     on_arm do
-      url "https://github.com/dotenvx/dotenvx/releases/download/v0.6.13/dotenvx-0.6.13-linux-arm64.tar.gz"
-      sha256 "1fa961b5dd319d993cbe0938cf3553d807cd33b73f7dabd23de800e9c5569f12"
+      url "https://github.com/dotenvx/dotenvx/releases/download/v0.7.0/dotenvx-0.7.0-linux-arm64.tar.gz"
+      sha256 "ea4173ac2ee7ec309a7b62b95d52d2e9d5669d98cd75ec3f82502d225a986eb3"
     end
   end
 
