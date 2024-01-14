@@ -7,6 +7,7 @@ class Dotenvx < Formula
   homepage "https://github.com/dotenvx/dotenvx"
   url "https://github.com/dotenvx/dotenvx/archive/refs/tags/v0.6.1.tar.gz"
   sha256 "9b406fcab9553aae18e7a64c460657a64ce7c4e49e17afc0d9acb96ca0ae97f7"
+  license "BSD-3-Clause" # BSD-3-Clause under Scott Motte
 
   on_macos do
     on_intel do
