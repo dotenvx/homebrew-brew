@@ -5,31 +5,31 @@
 class Dotenvx < Formula
   desc "Better dotenv–from the creator of `dotenv`"
   homepage "https://github.com/dotenvx/dotenvx"
-  url "https://github.com/dotenvx/dotenvx/archive/refs/tags/v0.6.1.tar.gz"
-  sha256 "9b406fcab9553aae18e7a64c460657a64ce7c4e49e17afc0d9acb96ca0ae97f7"
+  url "https://github.com/dotenvx/dotenvx/archive/refs/tags/v0.9.0.tar.gz"
+  sha256 "40f3bc9affd82961209db2e624329e1bf9df7d9db2377de0a083fad1f9e8969b"
   license "BSD-3-Clause" # BSD-3-Clause under Scott Motte
 
   on_macos do
     on_intel do
-      url "https://github.com/dotenvx/dotenvx/releases/download/v0.6.1/dotenvx-0.6.1-darwin-amd64.tar.gz"
-      sha256 "ae372e47643159b4f858e718f69bd354acae90e3ee43cbc4f75f2999e9bd82d5"
+      url "https://github.com/dotenvx/dotenvx/releases/download/v0.9.0/dotenvx-0.9.0-darwin-amd64.tar.gz"
+      sha256 "dcc600074d031b5ef0323b64fc84542694359ad63e935f76707acf1778884ba1"
     end
 
     on_arm do
-      url "https://github.com/dotenvx/dotenvx/releases/download/v0.6.1/dotenvx-0.6.1-darwin-arm64.tar.gz"
-      sha256 "8dae7291f5df14970cf8e30b02a850df0076a678b1a9eb60c6f3f3ea139c1af2"
+      url "https://github.com/dotenvx/dotenvx/releases/download/v0.9.0/dotenvx-0.9.0-darwin-arm64.tar.gz"
+      sha256 "53c1f9186f2365397217c80867a62ad1e9cd736ccc3228a6371e4203f2353dda"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/dotenvx/dotenvx/releases/download/v0.6.1/dotenvx-0.6.1-linux-amd64.tar.gz"
-      sha256 "52bbe151bc4d741bd706b767b2b1b351cfe033da250fcf90aac1b90b2a41a781"
+      url "https://github.com/dotenvx/dotenvx/releases/download/v0.9.0/dotenvx-0.9.0-linux-amd64.tar.gz"
+      sha256 "34045f4241454320486ffe3f64bfcd1c47d2e08e34a98460b27efb3544f7f448"
     end
 
     on_arm do
-      url "https://github.com/dotenvx/dotenvx/releases/download/v0.6.1/dotenvx-0.6.1-linux-arm64.tar.gz"
-      sha256 "c99e772986f82eddec7e9a9e90df7edee52cc67630d59fc8ff98a7ec1a783bac"
+      url "https://github.com/dotenvx/dotenvx/releases/download/v0.9.0/dotenvx-0.9.0-linux-arm64.tar.gz"
+      sha256 "0940b14cdf23cd770224d62f3b4a281b4e06085aff7e17ec0f94b85fd3368a96"
     end
   end
 
