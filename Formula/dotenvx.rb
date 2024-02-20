@@ -6,30 +6,30 @@ class Dotenvx < Formula
   desc "Better dotenv–from the creator of `dotenv`"
   homepage "https://github.com/dotenvx/dotenvx"
   url "https://github.com/dotenvx/dotenvx/archive/refs/tags/v0.16.1.tar.gz"
-  sha256 "6a8d5172e18378481007ad9a87b79ad54962d6673530059ba569c758d00820aa"
+  sha256 "5013ae7631a1e9bd498f8568cb930a35bdbaa2ed139b8a4cedef6cad768e91e0"
   license "BSD-3-Clause"
 
   on_macos do
     on_intel do
       url "https://github.com/dotenvx/dotenvx/releases/download/v0.16.1/dotenvx-0.16.1-darwin-amd64.tar.gz"
-      sha256 "320644c2a36af8631515ba93abd979d38a06c3e30092e74068175ac31c6aa7d6"
+      sha256 "450b8b1a122dadf2ffff44e65aa28e0b511efdfefb326c166bbc62c207286b47"
     end
 
     on_arm do
       url "https://github.com/dotenvx/dotenvx/releases/download/v0.16.1/dotenvx-0.16.1-darwin-arm64.tar.gz"
-      sha256 "07d25f891d17a4f4aec537c573bbd71a7e6766ceac782ee65ccda2fa6cbe8c81"
+      sha256 "57b2c844484da406f92dba4cdf35305b250510bb23dde6f6b022c436041c3ae2"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/dotenvx/dotenvx/releases/download/v0.16.1/dotenvx-0.16.1-linux-amd64.tar.gz"
-      sha256 "1bb56dc1547230d2d47b2f54f1116fe3380151890dfb0ba889f6877a0a48d4f5"
+      sha256 "c8325d2b284edcf8d78da26f1f7318adfa0ce673ebc6f7dab2993d3bdceee165"
     end
 
     on_arm do
       url "https://github.com/dotenvx/dotenvx/releases/download/v0.16.1/dotenvx-0.16.1-linux-arm64.tar.gz"
-      sha256 "e9f805fe151b1d201eed40939c29f648f207a61fabf73b83c3d2d2849e22e5e7"
+      sha256 "989cc7663d9374696028906c5c01db04d6621650bd0458cdee57431b811e3e9e"
     end
   end
 
