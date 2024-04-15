@@ -5,31 +5,31 @@
 class Dotenvx < Formula
   desc "Better dotenv–from the creator of `dotenv`"
   homepage "https://github.com/dotenvx/dotenvx"
-  url "https://github.com/dotenvx/dotenvx/archive/refs/tags/v0.33.0.tar.gz"
-  sha256 "3bddb8d2e6de01044c498d8002347df74f357d81b50b4c12a0f554b9bb14d3ad"
+  url "https://github.com/dotenvx/dotenvx/archive/refs/tags/v0.33.1.tar.gz"
+  sha256 "0cce956b537d9068f3b924cd46c221a061e71f8ebde83a9ab8a1babdb9b310de"
   license "BSD-3-Clause"
 
   on_macos do
     on_intel do
-      url "https://github.com/dotenvx/dotenvx/releases/download/v0.33.0/dotenvx-0.33.0-darwin-amd64.tar.gz"
-      sha256 "733e1be3800ef4bb1a32cb70b880bef3d40e17532da495a625f5aa58c0230f81"
+      url "https://github.com/dotenvx/dotenvx/releases/download/v0.33.1/dotenvx-0.33.1-darwin-amd64.tar.gz"
+      sha256 "c56f91fb9e4e6a44b51c720f6c7e8a24417cd453fa8080f3237a844f256b1012"
     end
 
     on_arm do
-      url "https://github.com/dotenvx/dotenvx/releases/download/v0.33.0/dotenvx-0.33.0-darwin-arm64.tar.gz"
-      sha256 "cd9ff022dfe66002947454cfa7d80068079a85d3f01e3a2df07fd285e707944d"
+      url "https://github.com/dotenvx/dotenvx/releases/download/v0.33.1/dotenvx-0.33.1-darwin-arm64.tar.gz"
+      sha256 "7888b9f3d2486dbc13d0e3d0b42d5fda8cb8d80a83edd2840bbf54ceb5f01ef5"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/dotenvx/dotenvx/releases/download/v0.33.0/dotenvx-0.33.0-linux-amd64.tar.gz"
-      sha256 "f7bb8c5f25603a49b20a8a7f57a18769896d5dc3885b3912434e6487c029668c"
+      url "https://github.com/dotenvx/dotenvx/releases/download/v0.33.1/dotenvx-0.33.1-linux-amd64.tar.gz"
+      sha256 "72cc497544ba93d71d4774ccdcfcd8ef6598fb8deec402ccdce8cc8fa3053d89"
     end
 
     on_arm do
-      url "https://github.com/dotenvx/dotenvx/releases/download/v0.33.0/dotenvx-0.33.0-linux-arm64.tar.gz"
-      sha256 "bee0246e26e41c36290f0a8f82cebdf1c7e0ef81c69e6f7310f40e31ba24dc7c"
+      url "https://github.com/dotenvx/dotenvx/releases/download/v0.33.1/dotenvx-0.33.1-linux-arm64.tar.gz"
+      sha256 "ac1afb476d7834f95559c4623edb2a1301eb9fcac66d8b1fe89e7b2b30f89159"
     end
   end
 
