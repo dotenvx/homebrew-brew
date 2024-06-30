@@ -5,31 +5,31 @@
 class DotenvxExtHub < Formula
   desc "🚫 deprecated: to be replaced by [dotenvx pro]"
   homepage "https://github.com/dotenvx/dotenvx-ext-hub"
-  url "https://github.com/dotenvx/dotenvx-ext-hub/archive/refs/tags/v0.2.4.tar.gz"
-  sha256 "261c4d253098b1b9919875f341c60e57b7fb53cbe5fd87c4a7fd5a6b4e69f9f4"
+  url "https://github.com/dotenvx/dotenvx-ext-hub/archive/refs/tags/v0.3.0.tar.gz"
+  sha256 "3df24a60d78ce6fe495c1407b3d4ace218c6acb93a25481cb859f3bccdfd3ad2"
   license "BSD-3-Clause"
 
   on_macos do
     on_intel do
-      url "https://github.com/dotenvx/dotenvx-ext-hub/releases/download/v0.2.4/dotenvx-ext-hub-0.2.4-darwin-amd64.tar.gz"
-      sha256 "b249fd8b792accaaa477ebbe8a49d2b28a105ccb7061eb325aacb34df1985469"
+      url "https://github.com/dotenvx/dotenvx-ext-hub/releases/download/v0.3.0/dotenvx-ext-hub-0.3.0-darwin-amd64.tar.gz"
+      sha256 "34e18e5ccb41d3514d538c04ad1a25b12d6d659913d123311351453357b2d9c7"
     end
 
     on_arm do
-      url "https://github.com/dotenvx/dotenvx-ext-hub/releases/download/v0.2.4/dotenvx-ext-hub-0.2.4-darwin-arm64.tar.gz"
-      sha256 "5aaaaf5c9f2b55c3bc5089039b052a1e8580ae30fff18e78ffa1ed3c89cb38a9"
+      url "https://github.com/dotenvx/dotenvx-ext-hub/releases/download/v0.3.0/dotenvx-ext-hub-0.3.0-darwin-arm64.tar.gz"
+      sha256 "febad933dc5c9b049f2ec8fe4f923d76883514793ae2e5ccf8d7b337265e4a4d"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/dotenvx/dotenvx-ext-hub/releases/download/v0.2.4/dotenvx-ext-hub-0.2.4-linux-amd64.tar.gz"
-      sha256 "72220021fe5a89af9d52e8d467ad2f0e5ef9d81e3a81aa031942c6af895850af"
+      url "https://github.com/dotenvx/dotenvx-ext-hub/releases/download/v0.3.0/dotenvx-ext-hub-0.3.0-linux-amd64.tar.gz"
+      sha256 "cb98c79c1103424e22e695509c77e05173116172aad4af676b0b38aec57a0c93"
     end
 
     on_arm do
-      url "https://github.com/dotenvx/dotenvx-ext-hub/releases/download/v0.2.4/dotenvx-ext-hub-0.2.4-linux-arm64.tar.gz"
-      sha256 "3455adba6b2a7ffc7ae6713b23c8dfe7aff4a6371c1c18bfa6248ca2897295fe"
+      url "https://github.com/dotenvx/dotenvx-ext-hub/releases/download/v0.3.0/dotenvx-ext-hub-0.3.0-linux-arm64.tar.gz"
+      sha256 "eb6dedf8753e96f6cb7b3ec6ba13c5b889dd0090b4245cc9d8c186b8b878e38d"
     end
   end
 
