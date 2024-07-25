@@ -5,30 +5,30 @@
 class DotenvxPro < Formula
   desc "Dotenvx-pro cli"
   homepage "https://github.com/dotenvx/dotenvx-pro"
-  url "https://github.com/dotenvx/dotenvx-pro/archive/refs/tags/v0.3.0.tar.gz"
-  sha256 "d68a1416eb1fad21f9eaac67adb0ba1fae698ee9bcc8689e50cb0a31d6b9ff84"
+  url "https://github.com/dotenvx/dotenvx-pro/archive/refs/tags/v0.4.0.tar.gz"
+  sha256 "496543c21bd6a9d04c5f3112a302137018d60476679a89f802995976aca6642a"
 
   on_macos do
     on_intel do
-      url "https://github.com/dotenvx/dotenvx-pro/releases/download/v0.3.0/dotenvx-pro-0.3.0-darwin-amd64.tar.gz"
-      sha256 "754be541271c489b5b8a17a511244523e14622add519a9a774e2c591a8ff1780"
+      url "https://github.com/dotenvx/dotenvx-pro/releases/download/v0.4.0/dotenvx-pro-0.4.0-darwin-amd64.tar.gz"
+      sha256 "0998c1c4cb8fc7c1b94db2091927019666a86bf4f8af21796cdfd0436f83d928"
     end
 
     on_arm do
-      url "https://github.com/dotenvx/dotenvx-pro/releases/download/v0.3.0/dotenvx-pro-0.3.0-darwin-arm64.tar.gz"
-      sha256 "04c1c59050b22d0d54e9797d376bf6b25d8f44320464eab34e47305f885bdefb"
+      url "https://github.com/dotenvx/dotenvx-pro/releases/download/v0.4.0/dotenvx-pro-0.4.0-darwin-arm64.tar.gz"
+      sha256 "aeb9eb24c636c467a2ca21f32487357150f752df3f9bfdfe8773bfaa18208b2c"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/dotenvx/dotenvx-pro/releases/download/v0.3.0/dotenvx-pro-0.3.0-linux-amd64.tar.gz"
-      sha256 "9440289a3873ac88b1c13260e98c6d2f9129a3b4de1e9b41252b3776f37295f3"
+      url "https://github.com/dotenvx/dotenvx-pro/releases/download/v0.4.0/dotenvx-pro-0.4.0-linux-amd64.tar.gz"
+      sha256 "9e7eaf3452edeed6d5d7bf70a18a243c3b156a991f85239dfb3a23adc26b17a7"
     end
 
     on_arm do
-      url "https://github.com/dotenvx/dotenvx-pro/releases/download/v0.3.0/dotenvx-pro-0.3.0-linux-arm64.tar.gz"
-      sha256 "d2b45ecf434ad29f6930c552e5daaccf0aacb1716bd556a53616ad9b7252603d"
+      url "https://github.com/dotenvx/dotenvx-pro/releases/download/v0.4.0/dotenvx-pro-0.4.0-linux-arm64.tar.gz"
+      sha256 "503c6b8f1fa2315e3d9ebd8d955762cafebb92ee2862bc7086a55375dd26ec0e"
     end
   end
 
