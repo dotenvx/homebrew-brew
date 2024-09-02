@@ -5,31 +5,31 @@
 class DotenvxExtVault < Formula
   desc "🔐 manage envvault files"
   homepage "https://github.com/dotenvx/dotenvx-ext-vault"
-  url "https://github.com/dotenvx/dotenvx-ext-vault/archive/refs/tags/v0.2.0.tar.gz"
-  sha256 "884dde2548111e16a84640a0b7c535780104bb2dc70c9f5d4b2277d4f3c8b080"
+  url "https://github.com/dotenvx/dotenvx-ext-vault/archive/refs/tags/v0.2.1.tar.gz"
+  sha256 "099a160e7f1cfb9d99993d4e10d947eeeacd230c6afe9c28d18b735a34f2b411"
   license "BSD-3-Clause"
 
   on_macos do
     on_intel do
-      url "https://github.com/dotenvx/dotenvx-ext-vault/releases/download/v0.2.0/dotenvx-ext-vault-0.2.0-darwin-amd64.tar.gz"
-      sha256 "206241269b1e61ab190b07b25db69e154ea9b1deb8b356e14c42de1ea7b8b3db"
+      url "https://github.com/dotenvx/dotenvx-ext-vault/releases/download/v0.2.1/dotenvx-ext-vault-0.2.1-darwin-amd64.tar.gz"
+      sha256 "776387d9b1cab1bdb8e969c8c9b02122f4cfa2dcb220c95566aab5038f8cb605"
     end
 
     on_arm do
-      url "https://github.com/dotenvx/dotenvx-ext-vault/releases/download/v0.2.0/dotenvx-ext-vault-0.2.0-darwin-arm64.tar.gz"
-      sha256 "75b1274bb2fd7f6fc0e1ad9f3845e6827b9d175268ae6cdb06394c4043f835f7"
+      url "https://github.com/dotenvx/dotenvx-ext-vault/releases/download/v0.2.1/dotenvx-ext-vault-0.2.1-darwin-arm64.tar.gz"
+      sha256 "a13752624dea0f16f7eb3b1ee7bcf463795b91f2c9ec80ea31037c29caff2064"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/dotenvx/dotenvx-ext-vault/releases/download/v0.2.0/dotenvx-ext-vault-0.2.0-linux-amd64.tar.gz"
-      sha256 "48ca80b6c8ba4e4bb1b890e72f5a4b74a9018cfe6a5661e3aa8bea8930d8306e"
+      url "https://github.com/dotenvx/dotenvx-ext-vault/releases/download/v0.2.1/dotenvx-ext-vault-0.2.1-linux-amd64.tar.gz"
+      sha256 "cb452a8236ad93f95e4f0811416db968c7d25a95e389cee928298c0d69c3e059"
     end
 
     on_arm do
-      url "https://github.com/dotenvx/dotenvx-ext-vault/releases/download/v0.2.0/dotenvx-ext-vault-0.2.0-linux-arm64.tar.gz"
-      sha256 "83398333e8d587911e63509e6dc42062b09c42999e946b436e7c0f6e54fa48f3"
+      url "https://github.com/dotenvx/dotenvx-ext-vault/releases/download/v0.2.1/dotenvx-ext-vault-0.2.1-linux-arm64.tar.gz"
+      sha256 "eb4aaac4356e1407cd78860e541a4195d8969412d93eae2583165ff6c5ca251d"
     end
   end
 
