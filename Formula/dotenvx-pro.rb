@@ -5,30 +5,30 @@
 class DotenvxPro < Formula
   desc "Dotenvx-pro cli"
   homepage "https://github.com/dotenvx/dotenvx-pro"
-  url "https://github.com/dotenvx/dotenvx-pro/archive/refs/tags/v0.9.0.tar.gz"
-  sha256 "0509f596ebb34964f5428a9b439941db332563401dba26a34b08263a5e2a67fb"
+  url "https://github.com/dotenvx/dotenvx-pro/archive/refs/tags/v0.10.0.tar.gz"
+  sha256 "f37792241fac37951dd3589a8ad1822f6ed7d1cec27ef2bfda1f439f4134b458"
 
   on_macos do
     on_intel do
-      url "https://github.com/dotenvx/dotenvx-pro/releases/download/v0.9.0/dotenvx-pro-0.9.0-darwin-amd64.tar.gz"
-      sha256 "5498cb2814bd105b95de4d47ce123092711b287a548755d9981075ef9320f8ef"
+      url "https://github.com/dotenvx/dotenvx-pro/releases/download/v0.10.0/dotenvx-pro-0.10.0-darwin-amd64.tar.gz"
+      sha256 "eb70719c49aec20db8b9a8df0f732de9593cb6f2fba792f16c738413e1598646"
     end
 
     on_arm do
-      url "https://github.com/dotenvx/dotenvx-pro/releases/download/v0.9.0/dotenvx-pro-0.9.0-darwin-arm64.tar.gz"
-      sha256 "a05439f70992c5008fd582cc2065765ed7f6e6829b65a67525002a82330655b8"
+      url "https://github.com/dotenvx/dotenvx-pro/releases/download/v0.10.0/dotenvx-pro-0.10.0-darwin-arm64.tar.gz"
+      sha256 "7bb13390186f3ed8fa752208444180e797a30741ca4551065e1c3eafa122b540"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/dotenvx/dotenvx-pro/releases/download/v0.9.0/dotenvx-pro-0.9.0-linux-amd64.tar.gz"
-      sha256 "082373f5211b6ba451fdb413e427165b37e32e622d37ce1667304a3294d2d81b"
+      url "https://github.com/dotenvx/dotenvx-pro/releases/download/v0.10.0/dotenvx-pro-0.10.0-linux-amd64.tar.gz"
+      sha256 "ed4c7629baeac7678580ec6c24dc131ab5cc07ec36d02de49ea7263298726523"
     end
 
     on_arm do
-      url "https://github.com/dotenvx/dotenvx-pro/releases/download/v0.9.0/dotenvx-pro-0.9.0-linux-arm64.tar.gz"
-      sha256 "7bc7d9b497bda1c41d35b739fa3130bfca3ac656315808b36b9cecc5f5ec281c"
+      url "https://github.com/dotenvx/dotenvx-pro/releases/download/v0.10.0/dotenvx-pro-0.10.0-linux-arm64.tar.gz"
+      sha256 "4b0080c59d1abd3f3524083daacacdcfa7356b8860bf4b873b70fb54541ff549"
     end
   end
 
