@@ -5,39 +5,40 @@
 class Dotenvx < Formula
   desc "Better dotenv–from the creator of `dotenv`"
   homepage "https://github.com/dotenvx/dotenvx"
-  url "https://github.com/dotenvx/dotenvx/archive/refs/tags/v1.14.1.tar.gz"
-  sha256 "d37b158fcddd6f6f42243de5247e4b3d0c2bb0882797594a015abe36c70543b2"
+  url "https://github.com/dotenvx/dotenvx/archive/refs/tags/v1.14.2.tar.gz"
+  sha256 "e9fdb5ecf68299d098ebb3f1fd9ea741ddadcac4c97ac87005ef5270e061067c"
   license "BSD-3-Clause"
 
   on_macos do
     on_intel do
-      url "https://github.com/dotenvx/dotenvx/releases/download/v1.14.1/dotenvx-1.14.1-darwin-amd64.tar.gz"
-      sha256 "81cdbc3b588dfb22e59759aab3881e53fb78ede0296fe2a240abee8f05e05724"
+      url "https://github.com/dotenvx/dotenvx/releases/download/v1.14.2/dotenvx-1.14.2-darwin-amd64.tar.gz"
+      sha256 "66b9f0c3f2f2e16ea05f2df9ee8e110c27a2c4903c4b7916265250b43f914ebb"
     end
 
     on_arm do
-      url "https://github.com/dotenvx/dotenvx/releases/download/v1.14.1/dotenvx-1.14.1-darwin-arm64.tar.gz"
-      sha256 "3cb240d5ca0df9281a1ff51701f1affcda16084369596462ec9ee433f94f3730"
+      url "https://github.com/dotenvx/dotenvx/releases/download/v1.14.2/dotenvx-1.14.2-darwin-arm64.tar.gz"
+      sha256 "0aa70f6bff7babeac51b5879dff2fa233114cf850f9c3569f13d82738b1f35fe"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/dotenvx/dotenvx/releases/download/v1.14.1/dotenvx-1.14.1-linux-amd64.tar.gz"
-      sha256 "99a13cec28562bf56a7c3754d350f28f7356fe417007740b4ed1de0aa0c0b105"
+      url "https://github.com/dotenvx/dotenvx/releases/download/v1.14.2/dotenvx-1.14.2-linux-amd64.tar.gz"
+      sha256 "aeb337873dbd6fd5fad0106233c4725716a7466aa7b7c261ddaeec52a0d1f7b8"
     end
 
     on_arm do
-      url "https://github.com/dotenvx/dotenvx/releases/download/v1.14.1/dotenvx-1.14.1-linux-arm64.tar.gz"
-      sha256 "345e7683618a8a9e5ed52ccbbfacce8af8b64eee21fb9bb4b6d651bc0eec3fa4"
+      url "https://github.com/dotenvx/dotenvx/releases/download/v1.14.2/dotenvx-1.14.2-linux-arm64.tar.gz"
+      sha256 "2630c8bec0b6347a17b3dcc4dc8083c066653715996afd4fae3533b6879baf62"
     end
   end
 
   def install
-    bin.install "dotenvx"; bin.install_symlink "dotenvx" => "git-dotenvx";
+    bin.install "dotenvx"
+bin.install_symlink "dotenvx" => "git-dotenvx"
   end
 
   test do
-    system bin/"dotenvx", "--version";
+    system bin/"dotenvx", "--version"
   end
 end
