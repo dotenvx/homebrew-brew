@@ -5,34 +5,34 @@
 class DotenvxPro < Formula
   desc "Secrets management – done right 🏆 encrypted, cloaked, secrets as code"
   homepage "https://github.com/dotenvx/dotenvx-pro"
-  url "https://github.com/dotenvx/dotenvx-pro/archive/refs/tags/v0.18.3.tar.gz"
-  version "0.18.3"
-  sha256 "c998cfbd684c8d648d126543e9e5b99aba04d3f270c692d71123b6250b051b79"
+  url "https://github.com/dotenvx/dotenvx-pro/archive/refs/tags/v0.19.0.tar.gz"
+  version "0.19.0"
+  sha256 "93f9f75107f8f69d7c2d563e4393b58544366eb41b4f2a5d5120632e92b4a689"
   license "NOASSERTION"
 
   depends_on "dotenvx"
 
   on_macos do
     on_intel do
-      url "https://github.com/dotenvx/dotenvx-pro/releases/download/v0.18.3/dotenvx-pro-0.18.3-darwin-amd64.tar.gz"
-      sha256 "4cf773fce95ebbf1155b1780fa495641bf7942ea72e8fd59924b7e83fdab5f77"
+      url "https://github.com/dotenvx/dotenvx-pro/releases/download/v0.19.0/dotenvx-pro-0.19.0-darwin-amd64.tar.gz"
+      sha256 "b76d815f7db7deabcaf9c6247b3fd279fb5c45eb69912a4529562ad86937cda4"
     end
 
     on_arm do
-      url "https://github.com/dotenvx/dotenvx-pro/releases/download/v0.18.3/dotenvx-pro-0.18.3-darwin-arm64.tar.gz"
-      sha256 "4f61f579e0b831e42f79897da200819d77bb7eccd2e0944faa95e02493105732"
+      url "https://github.com/dotenvx/dotenvx-pro/releases/download/v0.19.0/dotenvx-pro-0.19.0-darwin-arm64.tar.gz"
+      sha256 "491d449abc0a4d3c036eee3258fe6b9185f9f3c58bda1d454dd61db4c6905964"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/dotenvx/dotenvx-pro/releases/download/v0.18.3/dotenvx-pro-0.18.3-linux-amd64.tar.gz"
-      sha256 "06450fd41a188566ce134bf180db08a7ec075094f10e5b10d0abc36e132a3bb6"
+      url "https://github.com/dotenvx/dotenvx-pro/releases/download/v0.19.0/dotenvx-pro-0.19.0-linux-amd64.tar.gz"
+      sha256 "7739e36c5e0e2620a622b049d61f47d9fbc05be9c288d78628f9486aee1e4adf"
     end
 
     on_arm do
-      url "https://github.com/dotenvx/dotenvx-pro/releases/download/v0.18.3/dotenvx-pro-0.18.3-linux-arm64.tar.gz"
-      sha256 "c43eef52eb6da07d0ced474858f9be4476b7683d7ca44bd3573ed9d7b59df7e7"
+      url "https://github.com/dotenvx/dotenvx-pro/releases/download/v0.19.0/dotenvx-pro-0.19.0-linux-arm64.tar.gz"
+      sha256 "15cdff09681ac0350d16e5db504d2b3c451307529c585fd25c62bcf7c02da6b4"
     end
   end
 
