@@ -5,34 +5,34 @@
 class DotenvxPro < Formula
   desc "Secrets management – done right 🏆 encrypted, cloaked, secrets as code"
   homepage "https://github.com/dotenvx/dotenvx-pro"
-  url "https://github.com/dotenvx/dotenvx-pro/archive/refs/tags/v0.23.0.tar.gz"
-  version "0.23.0"
-  sha256 "433a04fcb143154b778c013b8a001b13e253ac84cc13d8befa7d657d96802930"
+  url "https://github.com/dotenvx/dotenvx-pro/archive/refs/tags/v0.24.0.tar.gz"
+  version "0.24.0"
+  sha256 "f019f6c2364e2fb3be1bb441a74caacea91ae4bf0dbfc10c268a30f254b7cbef"
   license "NOASSERTION"
 
   depends_on "dotenvx"
 
   on_macos do
     on_intel do
-      url "https://github.com/dotenvx/dotenvx-pro/releases/download/v0.23.0/dotenvx-pro-0.23.0-darwin-amd64.tar.gz"
-      sha256 "cfd75ea20778968823fc9069628c23bff9947c3f79f8b790446d46cd3ab6c435"
+      url "https://github.com/dotenvx/dotenvx-pro/releases/download/v0.24.0/dotenvx-pro-0.24.0-darwin-amd64.tar.gz"
+      sha256 "86366280aaaf1265b02247794033d43468936c2b850a0620ae93935e551bf974"
     end
 
     on_arm do
-      url "https://github.com/dotenvx/dotenvx-pro/releases/download/v0.23.0/dotenvx-pro-0.23.0-darwin-arm64.tar.gz"
-      sha256 "932203ade96c132f1d910a7d5cb59236d9f7e8e3fb34a8bf65f146b570e34125"
+      url "https://github.com/dotenvx/dotenvx-pro/releases/download/v0.24.0/dotenvx-pro-0.24.0-darwin-arm64.tar.gz"
+      sha256 "9b2a021cc082e66b3ada748e76d7957254f95660ee546f1bd03227dfbae695ef"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/dotenvx/dotenvx-pro/releases/download/v0.23.0/dotenvx-pro-0.23.0-linux-amd64.tar.gz"
-      sha256 "85ac966f6ee640f76788fddbd335bde3ee01249f873afa6e7b8c290a9b8b0330"
+      url "https://github.com/dotenvx/dotenvx-pro/releases/download/v0.24.0/dotenvx-pro-0.24.0-linux-amd64.tar.gz"
+      sha256 "1ff259ba4ee2b1b196689453137034373b183b5894556f1322c5cc95fab64d7a"
     end
 
     on_arm do
-      url "https://github.com/dotenvx/dotenvx-pro/releases/download/v0.23.0/dotenvx-pro-0.23.0-linux-arm64.tar.gz"
-      sha256 "92ac3fd9868132594181375b47d6b994667e2c28c02414f196bd8974b2019ef4"
+      url "https://github.com/dotenvx/dotenvx-pro/releases/download/v0.24.0/dotenvx-pro-0.24.0-linux-arm64.tar.gz"
+      sha256 "7c7e78745a511294c89874c5cd212af84439c366010c4f1c35de2aa441307cce"
     end
   end
 
