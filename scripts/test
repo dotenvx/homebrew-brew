@@ -3,6 +3,9 @@
 set -ex
 
 brew update
-brew install --build-from-source ./Formula/dotenvx.rb
+# register the current repo as a tap
+brew tap dotenvx/brew "$(pwd)"
+# now install from the tap
+brew install dotenvx/brew/dotenvx
 dotenvx --version
 dotenvx help
