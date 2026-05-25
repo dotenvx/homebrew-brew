@@ -5,32 +5,32 @@
 class Dotenvx < Formula
   desc "Secure dotenv–from the creator of `dotenv`"
   homepage "https://github.com/dotenvx/dotenvx"
-  url "https://github.com/dotenvx/dotenvx/archive/refs/tags/v1.68.1.tar.gz"
-  version "1.68.1"
-  sha256 "0dd394e3241071f24021cf01395252dbed402303e8cdadae9af13d03ce6cbdc3"
+  url "https://github.com/dotenvx/dotenvx/archive/refs/tags/v1.69.0.tar.gz"
+  version "1.69.0"
+  sha256 "c24c9d30dd2c09d96a1a4b3c5e00b86c76aa4563375a37e021ef9af8931a3d25"
   license "BSD-3-Clause"
 
   on_macos do
     on_intel do
-      url "https://github.com/dotenvx/dotenvx/releases/download/v1.68.1/dotenvx-1.68.1-darwin-amd64.tar.gz"
-      sha256 "ee77118cc34bb13098869d135ae46714e1d535878982ff64d165d444f38d08b6"
+      url "https://github.com/dotenvx/dotenvx/releases/download/v1.69.0/dotenvx-1.69.0-darwin-amd64.tar.gz"
+      sha256 "40960ba0f25f7d0ba13d55e7712d2e8daf36864c29e2ce07a9d3fa715b7a6ce8"
     end
 
     on_arm do
-      url "https://github.com/dotenvx/dotenvx/releases/download/v1.68.1/dotenvx-1.68.1-darwin-arm64.tar.gz"
-      sha256 "a788fbe16609616e94dc76091abb0d7be6ab42cd7a9d76ef2d44cf31b12f9600"
+      url "https://github.com/dotenvx/dotenvx/releases/download/v1.69.0/dotenvx-1.69.0-darwin-arm64.tar.gz"
+      sha256 "5f350993c16f1d9e56bb5b36bc1737e3020436f4499c460ceee08213ef508756"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/dotenvx/dotenvx/releases/download/v1.68.1/dotenvx-1.68.1-linux-amd64.tar.gz"
-      sha256 "7ce4c433d8a933fef99dc4f0ed942d3b0a112e9e59c50c0104c48c179f1c1994"
+      url "https://github.com/dotenvx/dotenvx/releases/download/v1.69.0/dotenvx-1.69.0-linux-amd64.tar.gz"
+      sha256 "eae6b329ebb68dc2b0bc805456e458091036d3789f90b5a0008f51db6f0f6638"
     end
 
     on_arm do
-      url "https://github.com/dotenvx/dotenvx/releases/download/v1.68.1/dotenvx-1.68.1-linux-arm64.tar.gz"
-      sha256 "a554dbe9f38b37e61d9d1495d90ac392b130b3441cdb0a6d9a55f073b13d6f94"
+      url "https://github.com/dotenvx/dotenvx/releases/download/v1.69.0/dotenvx-1.69.0-linux-arm64.tar.gz"
+      sha256 "ff3c78b771c35f2f4a7b3f31ba951e43d2d09a7aec70f02a6b4f5bd2e3fe17c3"
     end
   end
 
