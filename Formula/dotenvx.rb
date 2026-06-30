@@ -5,32 +5,32 @@
 class Dotenvx < Formula
   desc "Secure dotenv–from the creator of `dotenv`"
   homepage "https://github.com/dotenvx/dotenvx"
-  url "https://github.com/dotenvx/dotenvx/archive/refs/tags/v1.75.1.tar.gz"
-  version "1.75.1"
-  sha256 "03089622eab7086357d0637c41d136cba8c63bf0159de2a2df6c589ef5c7f193"
+  url "https://github.com/dotenvx/dotenvx/archive/refs/tags/v2.0.0.tar.gz"
+  version "2.0.0"
+  sha256 "c1ba00bf648fc38241cbd87a1da83e2a24a84dc8f1d7ca2fc07882c935af2b84"
   license "BSD-3-Clause"
 
   on_macos do
     on_intel do
-      url "https://github.com/dotenvx/dotenvx/releases/download/v1.75.1/dotenvx-1.75.1-darwin-amd64.tar.gz"
-      sha256 "7e620f7cacedb3b19a33894a5d6538fa56f412e1ccce5de9804344f3a46488d1"
+      url "https://github.com/dotenvx/dotenvx/releases/download/v2.0.0/dotenvx-2.0.0-darwin-amd64.tar.gz"
+      sha256 "4c5a71498d8b884860f86b2193912f1a147cd68c491f8713600f4feb98420cf8"
     end
 
     on_arm do
-      url "https://github.com/dotenvx/dotenvx/releases/download/v1.75.1/dotenvx-1.75.1-darwin-arm64.tar.gz"
-      sha256 "4a3f52cf3dbd4e5a506f768a709b1b016193372b04b43050bc1b9c610c9b78fa"
+      url "https://github.com/dotenvx/dotenvx/releases/download/v2.0.0/dotenvx-2.0.0-darwin-arm64.tar.gz"
+      sha256 "5d20b787a1f87f69b6f4394445f277a04e243e21a26f0275b009c99be265b44a"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/dotenvx/dotenvx/releases/download/v1.75.1/dotenvx-1.75.1-linux-amd64.tar.gz"
-      sha256 "5add677538b7ba33f8b50aa47fd33b8582587e8ce910a67e68aa3a136c6d0553"
+      url "https://github.com/dotenvx/dotenvx/releases/download/v2.0.0/dotenvx-2.0.0-linux-amd64.tar.gz"
+      sha256 "357d8d30c1ebcfd0108426d6f8e7b5240809c8370d2ee63d288e7144aa180f1c"
     end
 
     on_arm do
-      url "https://github.com/dotenvx/dotenvx/releases/download/v1.75.1/dotenvx-1.75.1-linux-arm64.tar.gz"
-      sha256 "ccbff6d4aa4cd26e13b3ef8a07999e98361c74483ad8da055b2afdb39a69427a"
+      url "https://github.com/dotenvx/dotenvx/releases/download/v2.0.0/dotenvx-2.0.0-linux-arm64.tar.gz"
+      sha256 "2900835ffbcea2c67e76735e0ecfa5d2e56c96ffc9e9190a22fda968d46be095"
     end
   end
 
