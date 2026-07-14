@@ -5,32 +5,32 @@
 class Dotenvx < Formula
   desc "Secure dotenv–from the creator of `dotenv`"
   homepage "https://github.com/dotenvx/dotenvx"
-  url "https://github.com/dotenvx/dotenvx/archive/refs/tags/v2.7.3.tar.gz"
-  version "2.7.3"
-  sha256 "a5500bbfa60c3e46a54386895ab3bd27f37b36b412f1c877a405a85ea1be52e5"
+  url "https://github.com/dotenvx/dotenvx/archive/refs/tags/v2.8.0.tar.gz"
+  version "2.8.0"
+  sha256 "8d1e5ae50940aa9e11284fcf27f4d86864e57a989b66a292bc5f56a624fb6d60"
   license "BSD-3-Clause"
 
   on_macos do
     on_intel do
-      url "https://github.com/dotenvx/dotenvx/releases/download/v2.7.3/dotenvx-2.7.3-darwin-amd64.tar.gz"
-      sha256 "0964ed1fdc13afd9d1ee5eb31db3bb3f1b6b86480da003006dafa9994b602ea1"
+      url "https://github.com/dotenvx/dotenvx/releases/download/v2.8.0/dotenvx-2.8.0-darwin-amd64.tar.gz"
+      sha256 "7e1ed00ef133c362cbf57ec654e48f107707754983264e2e0be411127bcd9994"
     end
 
     on_arm do
-      url "https://github.com/dotenvx/dotenvx/releases/download/v2.7.3/dotenvx-2.7.3-darwin-arm64.tar.gz"
-      sha256 "49db0dbb95c8f9de293710bab5403d74ace7c649c4b2a9bb353ac3cf9b97fe09"
+      url "https://github.com/dotenvx/dotenvx/releases/download/v2.8.0/dotenvx-2.8.0-darwin-arm64.tar.gz"
+      sha256 "338f862ed7996efbc2ba34d928752aa4c77a7e8f22987c53add65909232bc11e"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/dotenvx/dotenvx/releases/download/v2.7.3/dotenvx-2.7.3-linux-amd64.tar.gz"
-      sha256 "ad8c1b1cf5baa11275a503622c38192885e74771da98b57ff0cd1ce52258fb30"
+      url "https://github.com/dotenvx/dotenvx/releases/download/v2.8.0/dotenvx-2.8.0-linux-amd64.tar.gz"
+      sha256 "f9da51a28c204c06b32779a90ec2651e8fb2500ee0b98ac253861d09f9b9299c"
     end
 
     on_arm do
-      url "https://github.com/dotenvx/dotenvx/releases/download/v2.7.3/dotenvx-2.7.3-linux-arm64.tar.gz"
-      sha256 "3ca86a599a28b1cdc9d9d602d6baf79c839b4cd5724acb6da40a6345b04bafca"
+      url "https://github.com/dotenvx/dotenvx/releases/download/v2.8.0/dotenvx-2.8.0-linux-arm64.tar.gz"
+      sha256 "62e8db8b2268c217ebb1533587813593c539e51bbe1d1e710817f070bdd099fa"
     end
   end
 
