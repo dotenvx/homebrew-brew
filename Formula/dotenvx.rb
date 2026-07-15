@@ -5,32 +5,32 @@
 class Dotenvx < Formula
   desc "Secure dotenv–from the creator of `dotenv`"
   homepage "https://github.com/dotenvx/dotenvx"
-  url "https://github.com/dotenvx/dotenvx/archive/refs/tags/v2.9.0.tar.gz"
-  version "2.9.0"
-  sha256 "3c1bb8e50a39a4a238e3d7bd0ab22139b85c816cc1deee403e17dd560d39b33b"
+  url "https://github.com/dotenvx/dotenvx/archive/refs/tags/v2.10.0.tar.gz"
+  version "2.10.0"
+  sha256 "c95ca00bde671d716a3cdbf64a3c21231918dcaecab799555989822ecd72e369"
   license "BSD-3-Clause"
 
   on_macos do
     on_intel do
-      url "https://github.com/dotenvx/dotenvx/releases/download/v2.9.0/dotenvx-2.9.0-darwin-amd64.tar.gz"
-      sha256 "7f4b4fbaea60c9dea259649e094fc3bd61646b05b4b770a8465b7c4008291e20"
+      url "https://github.com/dotenvx/dotenvx/releases/download/v2.10.0/dotenvx-2.10.0-darwin-amd64.tar.gz"
+      sha256 "aef0c5e174650f5b9c0cbbddbdb400c8d55d01e8fe9d9e4500abce4c1e770535"
     end
 
     on_arm do
-      url "https://github.com/dotenvx/dotenvx/releases/download/v2.9.0/dotenvx-2.9.0-darwin-arm64.tar.gz"
-      sha256 "f0dd0bd8ae7aa7ab49fe4de2f279964ccedba93cd7755646b8699a77a67b4dc6"
+      url "https://github.com/dotenvx/dotenvx/releases/download/v2.10.0/dotenvx-2.10.0-darwin-arm64.tar.gz"
+      sha256 "610cd67c86037bba684e96ad41d56614cccd71a2ce7deda6cc2b2d189cff2cfc"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/dotenvx/dotenvx/releases/download/v2.9.0/dotenvx-2.9.0-linux-amd64.tar.gz"
-      sha256 "bad935fb28bfb025b32f63f3bc84e5f600cdd41668c3da77fcf3dc22a91d2702"
+      url "https://github.com/dotenvx/dotenvx/releases/download/v2.10.0/dotenvx-2.10.0-linux-amd64.tar.gz"
+      sha256 "ac7864842d8bf04343b04188fdcb3f106a89b31463bcc081c67f6d5ae41a8bf7"
     end
 
     on_arm do
-      url "https://github.com/dotenvx/dotenvx/releases/download/v2.9.0/dotenvx-2.9.0-linux-arm64.tar.gz"
-      sha256 "4137381d7e24053c0bd6e71b4c74391214b10bac3af79f4d1934d1636973a1ad"
+      url "https://github.com/dotenvx/dotenvx/releases/download/v2.10.0/dotenvx-2.10.0-linux-arm64.tar.gz"
+      sha256 "d21be3f0ffda9b38904a2f91c3afa6d39754560d443e9e6731a0ccd1c4901c0a"
     end
   end
 
